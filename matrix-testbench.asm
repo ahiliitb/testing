@@ -30,6 +30,19 @@ main:
 ; ; TODO - Fill code for allocating the matrix into memory, you have to use heap for this purpose
 ; ; Start of your code
 
+        mov r12, r1
+        imul r12, r12
+        dec r12
+        mov rdi, 0
+        mov rax, 12
+        syscall
+
+        mov [a1], rdi
+        imul r12, 8
+        add rdi, r12
+        mov rax, 12
+        syscall
+
 
 ; ; End of your code
 
@@ -39,6 +52,19 @@ main:
 ; ; FOR MATRIX 2
 ; ; TODO - Fill code for allocating the matrix into memory, you have to use heap for this purpose
 ; ; Start of your code
+
+        mov r12, r1
+        imul r12, r12
+        dec r12
+        mov rdi, 0
+        mov rax, 12
+        syscall
+
+        mov [a2], rdi
+        imul r12, 8
+        add rdi, r12
+        mov rax, 12
+        syscall
 
 
 ; ; End of your code
@@ -50,6 +76,19 @@ main:
 ; ; TODO - Fill code for allocating the matrix into memory, you have to use heap for this purpose
 ; ; Start of your code
 
+        mov r12, r1
+        imul r12, r12
+        dec r12
+        mov rdi, 0
+        mov rax, 12
+        syscall
+
+        mov [a3], rdi
+        imul r12, 8
+        add rdi, r12
+        mov rax, 12
+        syscall
+
 
 ; ; End of your code
 
@@ -59,6 +98,19 @@ main:
 ; ; FOR MATRIX 4
 ; ; TODO - Fill code for allocating the matrix into memory, you have to use heap for this purpose
 ; ; Start of your code
+
+        mov r12, r1
+        imul r12, r12
+        dec r12
+        mov rdi, 0
+        mov rax, 12
+        syscall
+
+        mov [a4], rdi
+        imul r12, 8
+        add rdi, r12
+        mov rax, 12
+        syscall
 
 
 ; ; End of your code
@@ -70,6 +122,19 @@ main:
 ; ; TODO - Fill code for allocating the matrix into memory, you have to use heap for this purpose
 ; ; Start of your code
 
+        mov r12, r1
+        imul r12, r12
+        dec r12
+        mov rdi, 0
+        mov rax, 12
+        syscall
+
+        mov [b1], rdi
+        imul r12, 8
+        add rdi, r12
+        mov rax, 12
+        syscall
+
 
 ; ; End of your code
 
@@ -80,6 +145,19 @@ main:
 ; ; TODO - Fill code for allocating the matrix into memory, you have to use heap for this purpose
 ; ; Start of your code
 
+        mov r12, r1
+        imul r12, r12
+        dec r12
+        mov rdi, 0
+        mov rax, 12
+        syscall
+
+        mov [b2], rdi
+        imul r12, 8
+        add rdi, r12
+        mov rax, 12
+        syscall
+
 
 ; ; End of your code
 
@@ -89,6 +167,19 @@ main:
 ; ; FOR FINAL MATRIX
 ; ; TODO - Fill code for allocating the matrix into memory, you have to use heap for this purpose
 ; ; Start of your code
+
+        mov r12, r1
+        imul r12, r12
+        dec r12
+        mov rdi, 0
+        mov rax, 12
+        syscall
+
+        mov [f1], rdi
+        imul r12, 8
+        add rdi, r12
+        mov rax, 12
+        syscall
 
 
 ; ; End of your code
