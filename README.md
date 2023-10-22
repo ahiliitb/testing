@@ -155,3 +155,5 @@ For this part, you need to implement the appropriate functionalities in each of 
 * Record the time required by each of these variants changing the size `N` of the matrices to `N=128,256,512,1024,2048` and plot them in a line graph with x-axis as size of the matrix and y-axis as time taken by each variant in seconds, note that you need to specify a legend mapping each variant to a color.
 * You will also need to record the data used to plot your graphs, as variant, size, cycles taken, the TSC frequency in a tabular manner
 * Make sure to include your approach with detailed explanation and the plots along with corresponding tables in the `report` file.
+
+hello how are u
